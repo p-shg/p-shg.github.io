@@ -4,7 +4,6 @@
 - Photo de profil : `assets/media/authors/me.jpg`
 - E-mail institutionnel (non publié), IdHAL, ORCID, Google Scholar, GitHub, LinkedIn → `data/authors/me.yaml`
 - PDF du CV public : `static/uploads/cv.pdf` (+ bouton dans `content/_index.md`)
-- Nom du dépôt / domaine, `baseURL` dans `config/_default/hugo.yaml`
 - URL du site / logiciel des paramètres musculo-tendineux, URL de l'IUT
 - Niveaux de langue
 - Liste complète des auteurs de Smits et al. (Frontiers 2025, « … » en placeholder) et inventeurs des brevets
