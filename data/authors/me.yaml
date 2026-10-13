@@ -1,0 +1,117 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Pierre Schegg
+  given: Pierre
+  family: Schegg
+postnominals:
+- PhD
+role: Maître de conférences (stagiaire) — IUT de Montpellier · équipe DEXTER, LIRMM
+bio: 'Je travaille en robotique médicale et en biomécanique, avec une double expérience en industrie et en recherche. Je modélise, simule, conçois et valide des dispositifs robotiques pour améliorer la santé et la qualité de vie : navigation endovasculaire autonome, implantation robotisée de valve aortique, et assistance ou rééducation du membre supérieur par commande optimale couplée humain-robot.
+
+  '
+affiliations:
+- name: LIRMM (Univ. Montpellier, CNRS) — équipe DEXTER
+  url: https://www.lirmm.fr/equipes/dexter/
+- name: IUT Montpellier-Sète, Université de Montpellier
+links:
+- icon: hero/link
+  url: https://www.lirmm.fr/annuaire/?qq=Schegg+Pierre
+  label: Annuaire LIRMM
+interests:
+- Robotique médicale et chirurgicale
+- Biomécanique et modélisation musculo-squelettique
+- Commande optimale numérique
+- Interaction humain-robot
+- Robotique déformable (FEM, SOFA)
+- Simulation médicale
+education:
+- degree: Qualification aux fonctions de maître de conférences (CNU, section 61)
+  institution: Conseil national des universités
+  end: '2026-03-13'
+- degree: Doctorat en informatique (thèse CIFRE)
+  institution: Université de Lille · Inria (équipe DEFROST) · CRIStAL UMR 9189 · Robocath
+  start: '2019-02-05'
+  end: '2022-05-25'
+  summary: '*Autonomous Catheter and Guidewire Navigation for Robotic Percutaneous Coronary Intervention* — encadrants : C. Duriez, J. Dequidt, P. Preux, B. Fournier. Jury : M.-O. Berger (présidente), F. Bello et J. Szewczyk (rapporteurs), J. Carpentier, J. Troccaz, C. Bergeles. Manuscrit sous embargo (5 ans).'
+  button:
+    text: Notice HAL
+    url: https://inria.hal.science/tel-04293261v1
+    icon: hero/link
+- degree: Diplôme d'ingénieur — M2 Robotique et Recherche & Développement (mobilité inter-centrale)
+  institution: École Centrale de Lille · École Centrale de Nantes
+  start: '2015-09-01'
+  end: '2018-09-01'
+- degree: Classe préparatoire aux grandes écoles PCSI-PSI*
+  institution: Lycée Janson de Sailly, Paris
+  start: '2013-09-01'
+  end: '2015-06-30'
+- degree: Baccalauréat scientifique
+  institution: Lycée Galilée, Cergy
+  end: '2013-06-30'
+experience:
+- role: Maître de conférences (stagiaire)
+  org: Université de Montpellier — IUT Montpellier-Sète · LIRMM, équipe DEXTER
+  start: '2026-09-01'
+  summary: 'Recherche en robotique médicale et d''assistance (robotique déformable d''assistance, robotique endovasculaire, transfert et démonstrateurs). Enseignement : automatique, robotique, signal, systèmes embarqués ; suivi de stages.'
+  tags:
+  - Robotique médicale
+  - Biomécanique
+  - Enseignement
+- role: Post-doctorant
+  org: Inria, équipe CAMIN — Montpellier
+  start: '2024-11-01'
+  end: '2026-08-31'
+  summary: Modélisation musculo-squelettique du membre supérieur et commande optimale numérique pour comprendre le mouvement humain asymptomatique et hémiplégique ; personnalisation et calibration de modèles, observabilité des paramètres ; co-simulation humain-robot et commande de robot sensible aux muscles (collaboration M. Begon, Université de Montréal). Co-encadrement de deux doctorants, d'un étudiant de M1 et d'un stagiaire de BTS.
+  tags:
+  - Bioptim
+  - Commande optimale
+  - Interaction humain-robot
+- role: Ingénieur mécatronique
+  org: Caranx Medical — Nice
+  start: '2022-06-01'
+  end: '2024-10-31'
+  summary: Développement d'un robot de cardiologie (implantation de valve aortique TAVI), de la conception aux tests sur animaux, et d'un dispositif mécanique pour la chirurgie endoscopique de l'estomac, de l'idée aux essais sur cadavre. Scrum Master d'une équipe de 7 personnes (roadmap technique, sprints, suivi). 8 brevets déposés.
+  tags:
+  - Mécatronique
+  - Validation préclinique
+  - Propriété intellectuelle
+- role: Ingénieur R&D — thèse CIFRE
+  org: Robocath — Rouen · Inria / Univ. Lille
+  start: '2019-02-05'
+  end: '2022-05-25'
+  summary: 'Navigation robotisée automatique de guides et cathéters dans les artères : simulation dynamique par éléments finis, commande (modèles inverses, apprentissage par renforcement, recherche arborescente de Monte Carlo), validation sur robot physique et fantôme.'
+  tags:
+  - SOFA
+  - FEM
+  - RL
+  - MCTS
+skills:
+- name: Modéliser, simuler
+  items:
+  - label: Modélisation musculo-squelettique (MSK)
+  - label: Dynamique multicorps (MBD)
+  - label: Éléments finis (FEM) — SOFA
+- name: Concevoir, fabriquer
+  items:
+  - label: CAO
+  - label: Mécatronique
+  - label: Prototypage
+- name: Contrôler, interagir
+  items:
+  - label: Commande optimale numérique (bioptim)
+  - label: Commande prédictive (MPC)
+  - label: Apprentissage par renforcement, MCTS
+  - label: Interaction humain-robot
+  - label: Vision par ordinateur
+- name: Valider
+  items:
+  - label: Simulation
+  - label: Fantôme
+  - label: Ex vivo, in vivo (animal, cadavre)
+  - label: Essais avec usagers
+- name: Logiciels libres
+  items:
+  - label: SofaGym (co-auteur)
+  - label: Contributions à bioptim et BioBuddy
